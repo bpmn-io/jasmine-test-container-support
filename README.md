@@ -2,6 +2,15 @@
 
 This is an extension for [jasmine](jasmine.github.io/2.0/introduction.html) that provides per-spec test containers, i.e. `<div />` DOM elements.
 
+## Features
+
+The library provides a test container with a caption for each spec.
+Links and conditional coloring for successful or failed tests are included.
+
+![jasmine-test-container-support in action](https://raw.githubusercontent.com/bpmn-io/jasmine-test-container-support/master/docs/screenshot.png "Screenshot of the test container on bpmn-js")
+
+The screenshot shows the container being used during SVG rendering test for [bpmn-js](https://github.com/bpmn-io/bpmn-js).
+
 
 ## Usage
 
