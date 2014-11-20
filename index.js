@@ -18,6 +18,7 @@ function JasmineTestContainerSupport(parent, options) {
     container.id = result.id + '-parent';
     container.style.margin = '10px -5px';
     container.style.border = 'solid 1px #888';
+    container.classList.add('test-container');
 
     var header = document.createElement('h4');
     header.id = result.id + '-header';
@@ -38,6 +39,7 @@ function JasmineTestContainerSupport(parent, options) {
 
     var canvas = document.createElement('div');
     canvas.id = result.id + '-container';
+    canvas.classList.add('result');
     container.appendChild(canvas);
 
     document.body.appendChild(container);
