@@ -29,7 +29,7 @@ function JasmineTestContainerSupport(parent, options) {
 
 
     var headerLink = document.createElement('a');
-    headerLink.innerText = result.fullName;
+    headerLink.textContent = result.fullName;
     headerLink.href = '#' + container.id;
     headerLink.style.color = 'inherit';
     headerLink.style.textDecoration = 'none';
@@ -52,7 +52,7 @@ function JasmineTestContainerSupport(parent, options) {
   this.specDone = function(result) {
 
     var indicator = document.createElement('div');
-    indicator.innerText = result.status;
+    indicator.textContent = result.status;
 
     var color = result.status === 'failed' ? 'red' : 'green';
 
