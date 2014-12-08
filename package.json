@@ -1,6 +1,6 @@
 {
   "name": "jasmine-test-container-support",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A jasmine extension that provides per spec test containers",
   "scripts": {
     "test": "grunt test"
